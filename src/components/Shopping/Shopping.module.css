@@ -1,0 +1,21 @@
+.shopping {
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column; 
+}
+
+.heading2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #F59A83;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    transform: skewY(-3deg); 
+}
+
+.shopping__list {
+    list-style: none;
+    /*max-height: 77rem;
+    overflow: scroll;*/ 
+}

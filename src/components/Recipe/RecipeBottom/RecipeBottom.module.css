@@ -1,0 +1,32 @@
+.recipe__directions {
+    padding: 4rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.recipe__directions a {
+    text-decoration: none;
+}
+
+.heading2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #F59A83;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    transform: skewY(-3deg); 
+}
+
+.recipe__directionsText {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 3rem;
+    color: #968B87; 
+}
+
+.recipe__by {
+    font-weight: 700; 
+}

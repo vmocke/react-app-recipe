@@ -1,0 +1,10 @@
+.header {
+  grid-area: head;
+  background-color: #F9F5F3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+.header a {
+  text-decoration: none;
+}

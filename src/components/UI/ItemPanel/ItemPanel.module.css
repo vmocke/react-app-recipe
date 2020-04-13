@@ -1,0 +1,32 @@
+.ItemPanel_link:link,
+.ItemPanel_link:visited {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    transition: all .3s;
+    border-right: 1px solid #fff;
+    text-decoration: none; 
+}
+
+.ItemPanel_link:hover {
+    background-color: #F9F5F3;
+    transform: translateY(-2px); 
+}
+
+.ItemPanel_linkActive {
+    background-color: #F9F5F3; 
+}
+.ItemPanel_name {
+    font-size: 1.3rem;
+    color: #F59A83;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: .3rem; 
+}
+
+.ItemPanel_author {
+    font-size: 1.1rem;
+    color: #968B87;
+    text-transform: uppercase;
+    font-weight: 600; 
+}

@@ -1,0 +1,124 @@
+/*
+DIV
+*/
+.results__btnPrev {
+    float: left;
+    flex-direction: row-reverse; 
+}
+
+.results__btnNext {
+    float: right; 
+}
+
+.headerLogout {
+    padding-right: 4rem;
+}
+/*
+BUTTON
+*/
+.btn, .btnSmall, .btnSmall:link, .btnSmall:visited {
+    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    border-radius: 10rem;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all .2s; }
+.btn:hover, .btnSmall:hover {
+    transform: scale(1.05); }
+.btn:focus, .btnSmall:focus {
+    outline: none; }
+.btn > *:first-child, .btnSmall > *:first-child {
+    margin-right: 1rem; }
+  
+.btn {
+    padding: 1.3rem 3rem;
+    font-size: 1.4rem; }
+.btn svg {
+    height: 2.25rem;
+    width: 2.25rem;
+    fill: currentColor; }
+  
+.btnSmall, .btnSmall:link, .btnSmall:visited {
+    font-size: 1.3rem;
+    padding: 1rem 1.75rem;
+    text-decoration: none; }
+.btnSmall svg, .btnSmall:link svg, .btnSmall:visited svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: currentColor; }
+  
+.btnInline {
+    color: #F59A83;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #F9F5F3;
+    padding: .8rem 1.2rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all .2s; }
+.btnInline svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: currentColor;
+    margin: 0 .2rem; }
+.btnInline span {
+    margin: 0 .4rem; }
+.btnInline:hover {
+    color: #F48982;
+    background-color: #F2EFEE; }
+.btnInline:focus {
+    outline: none; }
+  
+.btnTiny {
+    height: 1.75rem;
+    width: 1.75rem;
+    border: none;
+    background: none;
+    cursor: pointer; }
+.btnTiny svg {
+    height: 100%;
+    width: 100%;
+    fill: #F59A83;
+    transition: all .3s; }
+.btnTiny:focus {
+    outline: none; }
+.btnTiny:hover svg {
+    fill: #F48982;
+    transform: translateY(-1px); }
+.btnTiny:active svg {
+    fill: #F48982;
+    transform: translateY(0); }
+.btnTiny:not(:last-child) {
+    margin-right: .3rem; }
+
+.recipe__love {
+    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    height: 4.5rem;
+    width: 4.5rem;
+    margin-left: auto;
+    transition: all .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+    
+.recipe__love:hover {
+    transform: scale(1.07); 
+}
+    
+.recipe__love:focus {
+    outline: none; 
+}
+.recipe__love svg {
+    height: 2.75rem;
+    width: 2.75rem;
+    fill: #fff; 
+}
